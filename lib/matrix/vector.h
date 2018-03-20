@@ -42,7 +42,7 @@ typedef struct {
 
 /* 3D vector of ints */
 typedef struct {
-    int32_t p[3];
+    int32 p[3];
 } i32_v3_t;
 
 /* 3D vector of ints */

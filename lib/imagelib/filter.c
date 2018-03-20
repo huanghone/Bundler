@@ -148,6 +148,7 @@ double img_laplacian(img_t *img, int x, int y) {
   return img_pixel_convolve_gs(img, x, y, 5, 5, laplace_kernel, 1.0);
 }
 
+#if 0
 #ifdef WIN32
 static double erf (double x) {
   int sign;
@@ -177,6 +178,7 @@ static double erf (double x) {
    
   return t;
 } 
+#endif
 #endif
 
 /* Compute a filter kernel for a gaussian filter with the *
